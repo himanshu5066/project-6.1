@@ -1,0 +1,68 @@
+2025-05-01 23:05:56,905 - sales_forecast - INFO - Starting sales forecasting analysis for Rossmann Pharmaceuticals
+2025-05-01 23:06:02,813 - sales_forecast - INFO - Loading data files
+2025-05-01 23:06:10,066 - sales_forecast - INFO - Displaying basic information about the datasets
+2025-05-01 23:06:15,067 - sales_forecast - INFO - Displaying basic information about the datasets
+2025-05-01 23:06:24,337 - sales_forecast - INFO - Checking for missing values
+2025-05-01 23:06:32,833 - sales_forecast - INFO - Starting data preprocessing
+2025-05-01 23:06:43,985 - sales_forecast - INFO - Extracting date features
+2025-05-01 23:06:56,475 - sales_forecast - INFO - Starting Exploratory Data Analysis
+2025-05-01 23:07:10,971 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-05-01 23:07:10,979 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-05-01 23:07:33,470 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-05-01 23:07:34,102 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-05-01 23:07:55,216 - sales_forecast - INFO - Analyzing sales behavior around holidays
+2025-05-01 23:08:16,869 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-05-01 23:08:17,500 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-05-01 23:08:32,438 - sales_forecast - INFO - Preparing data for modeling
+2025-05-01 23:08:38,765 - sales_forecast - INFO - Converting categorical variables to numeric
+2025-05-01 23:08:39,182 - sales_forecast - WARNING - Column PromoInterval has non-numeric data. Attempting to convert.
+2025-05-01 23:08:39,618 - sales_forecast - WARNING - Column CompDistRange is categorical. Adding '0' as a category and filling missing values.
+2025-05-01 23:08:39,647 - sales_forecast - ERROR - Error processing column StateHoliday_0: 'DataFrame' object has no attribute 'dtype'
+2025-05-01 23:08:39,651 - sales_forecast - ERROR - Error processing column StateHoliday_0: 'DataFrame' object has no attribute 'dtype'
+2025-05-01 23:08:54,508 - sales_forecast - INFO - Selecting features for modeling
+2025-05-01 23:08:55,004 - sales_forecast - INFO - Training Random Forest model
+2025-05-01 23:20:00,772 - sales_forecast - INFO - Selecting features for modeling
+2025-05-01 23:20:01,488 - sales_forecast - INFO - Training Random Forest model
+2025-05-01 23:24:52,897 - sales_forecast - INFO - Converting categorical variables to numeric using one-hot encoding
+2025-05-01 23:25:13,244 - __main__ - INFO - Converting categorical variables to numeric using one-hot encoding
+2025-05-01 23:27:31,864 - __main__ - INFO - Preparing data for modeling
+2025-05-01 23:27:32,750 - __main__ - INFO - Converting categorical variables to numeric
+2025-05-01 23:27:33,695 - __main__ - WARNING - Column PromoInterval has non-numeric data. Attempting to convert.
+2025-05-01 23:27:34,499 - __main__ - WARNING - Column CompDistRange is categorical. Adding '0' as a category and filling missing values.
+2025-05-01 23:27:34,517 - __main__ - ERROR - Error processing column StateHoliday_0: 'DataFrame' object has no attribute 'dtype'
+2025-05-01 23:27:34,517 - __main__ - ERROR - Error processing column StateHoliday_0: 'DataFrame' object has no attribute 'dtype'
+2025-05-01 23:28:03,641 - __main__ - INFO - Selecting features for modeling
+2025-05-01 23:28:04,296 - __main__ - INFO - Training Random Forest model
+2025-05-01 23:29:03,908 - __main__ - INFO - Selecting features for modeling
+2025-05-01 23:29:04,641 - __main__ - INFO - Training Random Forest model
+2025-05-01 23:29:39,102 - __main__ - INFO - Selecting features for modeling
+2025-05-01 23:29:39,998 - __main__ - INFO - Training Random Forest model
+2025-05-01 23:30:12,170 - __main__ - INFO - Selecting features for modeling
+2025-05-01 23:30:12,930 - __main__ - INFO - Training Random Forest model
+2025-05-01 23:30:29,226 - __main__ - INFO - Selecting features for modeling
+2025-05-01 23:30:30,003 - __main__ - INFO - Training Random Forest model
+2025-05-01 23:31:09,600 - __main__ - INFO - Preparing data for modeling
+2025-05-01 23:31:10,584 - __main__ - INFO - Converting categorical variables to numeric
+2025-05-01 23:31:11,903 - __main__ - WARNING - Column PromoInterval has non-numeric data. Attempting to convert.
+2025-05-01 23:31:13,001 - __main__ - WARNING - Column CompDistRange is categorical. Adding '0' as a category and filling missing values.
+2025-05-01 23:31:13,013 - __main__ - ERROR - Error processing column StateHoliday_0: 'DataFrame' object has no attribute 'dtype'
+2025-05-01 23:31:13,014 - __main__ - ERROR - Error processing column StateHoliday_0: 'DataFrame' object has no attribute 'dtype'
+2025-05-01 23:31:13,205 - __main__ - INFO - Selecting features for modeling
+2025-05-01 23:31:14,101 - __main__ - INFO - Training Random Forest model
+2025-05-01 23:35:10,456 - __main__ - INFO - Preparing data for modeling
+2025-05-01 23:35:11,191 - __main__ - INFO - Converting categorical variables to numeric
+2025-05-01 23:35:11,922 - __main__ - WARNING - Column PromoInterval has non-numeric data. Attempting to convert.
+2025-05-01 23:35:12,824 - __main__ - WARNING - Column CompDistRange is categorical. Adding '0' as a category and filling missing values.
+2025-05-01 23:35:12,824 - __main__ - ERROR - Error processing column StateHoliday_0: 'DataFrame' object has no attribute 'dtype'
+2025-05-01 23:35:12,824 - __main__ - ERROR - Error processing column StateHoliday_0: 'DataFrame' object has no attribute 'dtype'
+2025-05-01 23:35:16,293 - __main__ - INFO - Selecting features for modeling
+2025-05-01 23:35:16,963 - __main__ - INFO - Training Random Forest model
+2025-05-01 23:37:04,370 - __main__ - INFO - Selecting features for modeling
+2025-05-01 23:37:05,365 - __main__ - INFO - Training Random Forest model
+2025-05-01 23:47:30,839 - __main__ - INFO - Evaluating model performance
+2025-05-01 23:47:48,130 - __main__ - INFO - Serializing the model
+2025-05-01 23:49:21,601 - __main__ - INFO - Evaluating model performance
+2025-05-01 23:50:48,382 - __main__ - INFO - Serializing the model
+2025-05-01 23:52:16,363 - __main__ - INFO - Serializing the model
+2025-05-01 23:54:44,639 - __main__ - INFO - Serializing the model with joblib
+2025-05-01 23:58:25,080 - __main__ - INFO - Serializing the model with joblib
